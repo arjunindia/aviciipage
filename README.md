@@ -1,6 +1,6 @@
-# Avicii Trivute webpage
+# Avicii Tribute webpage
 
-###### This webpage was made for the freecodecamp.com responsive web design project.
+### This webpage was made for the freecodecamp.com responsive web design project.
 
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/VPaoNP.
 
