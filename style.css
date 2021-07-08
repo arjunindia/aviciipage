@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+body {
+  background: linear-gradient(120deg, GRAY, white);
+}
+#main {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#title {
+  text-align: center;
+  font-size: 10vh;
+}
+#fnds {
+  text-align: center;
+}
+#img-div {
+  padding-top: 5vh;
+  width: 60vw;
+
+  /* padding: 5%; */
+}
+#img-div #image {
+  margin: 0 auto;
+  width: 60vw;
+  height: auto;
+  display: block;
+  box-shadow: 10px 10px 30px black, -10px -10px 30px black;
+  max-width: 100%;
+}
+#img-caption {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.9em;
+}
+.trib {
+  padding: 5%;
+  width: 65vw;
+}
+#tribute-info {
+  font-size: 1.3em;
+}
+#extl {
+  text-align: center;
+}
+q {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 2em;
+}
+.quotes {
+  padding-top: 10vh;
+}
+#tribute-link {
+  color: #f25;
+}
+#tribute-link:active {
+  color: #1e3f5a;
+}
+#tribute-link:hover {
+  color: hotpink;
+}
