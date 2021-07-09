@@ -19,6 +19,18 @@ header {
 #title {
   text-align: center;
   font-size: 10vh;
+  transition: text-shadow 1s, border 2s, opacity 300ms, transform 300ms;
+  overflow: hidden;
+  display: block;
+  position: relative;
+
+  padding: 0.2em 0;
+}
+#title:hover {
+  text-shadow: 10px 10px 10px rgb(145, 144, 144);
+  border-bottom: 1px solid gray;
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
 }
 #fnds {
   text-align: center;
@@ -36,6 +48,10 @@ header {
   display: block;
   box-shadow: 10px 10px 30px black, -10px -10px 30px black;
   max-width: 100%;
+  transition: box-shadow 2s;
+}
+#img-div #image:hover {
+  box-shadow: 10px 10px 30px gray, -10px -10px 30px gray;
 }
 #img-caption {
   text-align: center;
